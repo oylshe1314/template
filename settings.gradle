@@ -1,0 +1,12 @@
+rootProject.name = 'house'
+
+//API
+include ':api-utils'
+include ':api-common'
+include ':api-entity'
+include ':api-user'
+
+//SERVER
+include 'server-admin'
+include 'server-house'
+

@@ -1,0 +1,20 @@
+import java.nio.charset.StandardCharsets
+
+plugins {
+    id 'java'
+}
+
+allprojects {
+
+    group 'com.sk.op'
+
+    sourceCompatibility = 17
+
+    repositories {
+        mavenCentral()
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+}
